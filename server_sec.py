@@ -37,8 +37,9 @@ def port_scan():
 def network_scan():
     print("\n--- Network Port Scan ---")
     print("Scanning all network ports (this may take a moment)...")
-    run_command("sudo nmap 192.168.1.172/24")
-    result = run_command("sudo nmap 192.168.1.172/24")
+    # Relpace with your ip
+    run_command("sudo nmap YOURIP")
+    result = run_command("sudo nmap YOURIP")
     print(f"{result}")
     print("Scan Complete")
 
