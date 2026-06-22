@@ -1,6 +1,6 @@
 # simple-secutity-check
 
-POS.py Version: 1.0
+serever_sec.py Version: 1.0
 
 Python: 3.11+
 
