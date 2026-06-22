@@ -30,8 +30,8 @@ Performs autmated update &full upgrade
 ----------------------------------------------------
 3. Requirements
 ----------------------------------------------------
-nmap
-clamscan
+-nmap
+-clamscan
 ----------------------------------------------------
 4. Installation
 ----------------------------------------------------
@@ -43,14 +43,14 @@ clamscan
 ----------------------------------------------------
 5. Dependencies
 ----------------------------------------------------
-Install required packages via pip:
-
-   sudo apt install nmap && sudo apt install clamscan
-
+Install required packages:
+   $ sudo apt update && sudo apt full-upgrade
+   $ sudo apt install nmap && sudo apt install clamscan
+----------------------------------------------------
 6. Usage
 ----------------------------------------------------
 
-1.In terminal run "ifconfig" and find your host ip
+1. In terminal run "ifconfig" and find your host ip
 2. Update 'server_sec.py' with your host ip
 4. Run the application:
 
