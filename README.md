@@ -6,7 +6,7 @@ Python: 3.11+
 
 Platform: Windows / Linux / Mac
 
-Dependencies: 
+Dependencies: pyhton, nmap, clamscan
 
 ----------------------------------------------------
 0. Acknowledgments
@@ -24,13 +24,17 @@ Author: soldiers-son
 2. Features
 ----------------------------------------------------
 -Terminal Based
-Performs autmated update &full upgrade
+
+-Performs autmated update &full upgrade
+
 -Nmap for local network scanning
+
 -Clamscan for file scanning
 ----------------------------------------------------
 3. Requirements
 ----------------------------------------------------
 -nmap
+
 -clamscan
 ----------------------------------------------------
 4. Installation
